@@ -8,10 +8,13 @@ import {Link} from "react-router-dom";
 
 const EnglishPage=()=>{
     return (
+
+        
     
         
           <div class="wrapper">
-            <div class="resume">
+            
+            <div class="resume">  
                 <div class="left">
                     <div class="img_holder"><img src={imgcv} alt="picture"/></div>
                      <div class="contact_wrap pb">
@@ -133,21 +136,77 @@ const EnglishPage=()=>{
                                     
                     </div>
                 </div>
+               
                 <div class="right">
                     <div class="header">
+
+                        
                         <div class="name_role">
                         <div class="button">
 
                         <li><Link to={"/heb"} class="text" style={{ color: 'black' }}>עבר</Link></li>
-                        <li><div style={{ color: 'deepskyblue' }}>eng</div></li>    
+                        <li><div style={{ color: 'deepskyblue' }}>eng</div></li>  
+                        
                                 </div>
+                                
                             <div class="name">
                                 <span style={{ color: 'black' }}>EVGENY</span> PAVEL
+                                
                             </div>	
                             <div class="role">
                             Full Stack Developer
                             </div>
                         </div>
+
+                        <div class="skills_wrap pb">
+                        <div class="skillsphone">
+                            <ul>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-html5"></i></div>
+                                        <div class="text">HTML</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-css3-alt"></i></div>
+                                        <div class="text">CSS</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-js"></i></div>
+                                        <div class="text">Javascript</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">React.JS</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">C</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">C++</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">CISCO</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        
                         <div class="about">
                         I am a software engineer with 2 years of experience. I've been working in different areas and
     with different technologies. Comfortable in a fast-paced, high-intensity work environment.
@@ -156,7 +215,38 @@ const EnglishPage=()=>{
     
                         </div>
                     </div>
+
+
+                    
                     <div class="right_inner">
+                    <div class="contactphone_wrap pb">
+                       <div class="titlephone">
+                            Contact
+                        </div>
+                        <div class="contactphone">
+                            <ul>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><PhoneOutlined /></div>
+                                        <div class="text2">(+972) 52-799-8790</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><MailOutlined /></div>
+                                        <div class="text">evgenypavel91@gmail.com</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><HomeOutlined /></div>
+                                        <div class="text2">Netanya, Israel</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        
                         <div class="exp">
                             <div class="title">
                                 experience
@@ -302,6 +392,44 @@ const EnglishPage=()=>{
                                 </ul>
                             </div>
                         </div>
+
+
+                        <div class="languagephone_wrap pb">
+                        <div class="titlephone">
+                        Languages
+                        </div >
+                        
+                        
+                        <div class="languagephone">
+                            <ul>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><div class="text">Hebrew <span style={{ color: 'deepskyblue' }}>(fluent)</span></div></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><div class="text"> English <span style={{ color: 'deepskyblue' }}>(fluent)</span></div></div>								
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><div class="text">Russian <span style={{ color: 'deepskyblue' }}>(mother language)</span></div></div>								
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><div class="text">Romanian <span style={{ color: 'deepskyblue' }}>(mother language)</span></div></div>								
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    
+                                    
+                    </div>
+
+
                     </div>
                   
             </div>

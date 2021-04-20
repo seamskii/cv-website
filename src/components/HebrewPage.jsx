@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 
 
-const EnglishPage=()=>{
+const HebrewPage=()=>{
     return (
     
         <div className="App">
@@ -147,6 +147,59 @@ const EnglishPage=()=>{
                             Full Stack Developer
                             </div>
                         </div>
+
+                        <div class="skills_wrap pb">
+                        <div class="skillsphone">
+                            <ul>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-html5"></i></div>
+                                        <div class="text">HTML</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-css3-alt"></i></div>
+                                        <div class="text">CSS</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-js"></i></div>
+                                        <div class="text">Javascript</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">React.JS</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">C</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">C++</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">CISCO</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+
+
+
+
                         <div class="about" style={{ textAlign:"right" }} >
                         אני הנדסאי תוכנה בעל שנתיים ניסיון.
 עבדתי בתחומים שונים ועם טכנולוגיות שונות.
@@ -155,7 +208,40 @@ const EnglishPage=()=>{
                         </div>
                     </div>
                     <div class="right_inner">
-                        <div class="exp">
+                    <div class="exp2">
+                    <div class="titlephone">
+                        פרטים אישיים
+                        </div>
+                        <div class="contactHIPphone">
+                            <ul>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="text2">(+972) 52-799-8790</div>
+                                        <div class="icon"><PhoneOutlined /></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap"> 
+                                        <div class="text">evgenypavel91@gmail.com</div>
+                                        <div class="icon"><MailOutlined /></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="text2">Netanya, Israel</div>
+                                        <div class="icon"><HomeOutlined /></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+
+
+
+
+                    <div class="right_inner">
+                        <div class="exp2">
                             <div class="title">
                             ניסיון תעסוקתי 
                             </div>
@@ -239,11 +325,11 @@ const EnglishPage=()=>{
                                 </ul>
                             </div>
                         </div>
-                        <div class="education">
+                        <div class="exp2">
                             <div class="title">
                             רקע אקדמי
                             </div>
-                            <div class="education_wrap">
+                            <div class="exp2">
                                 <ul>
                                     <li>
                                         <div class="li_wrap">
@@ -290,7 +376,7 @@ const EnglishPage=()=>{
                                 </ul>
                             </div>
                         </div>
-                        <div class="education">
+                        <div class="exp2">
                             <div class="title">
                             שירות צבאי
                             </div>
@@ -311,6 +397,41 @@ const EnglishPage=()=>{
                                 </ul>
                             </div>
                         </div>
+
+                        <div class="exp2">
+                        <div class="titlephone">
+                        שפות
+                        </div >
+                        
+                        
+                        <div class="languagephone">
+                            <ul>
+                                <li>
+                                    <div class="exp2">
+                                        <div class="icon"><div class="text">עברית <span style={{ color: 'deepskyblue' }}>(שותף)</span></div></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp2">
+                                        <div class="icon"><div class="text"> אנגלית <span style={{ color: 'deepskyblue' }}>(שוטף)</span></div></div>								
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp2">
+                                        <div class="icon"><div class="text">רוסית <span style={{ color: 'deepskyblue' }}>(שפת אם)</span></div></div>								
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp2">
+                                        <div class="icon"><div class="text">רומנית <span style={{ color: 'deepskyblue' }}>(שפת אם)</span></div></div>								
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    
+                                    
+                    </div>
                     </div>
                 </div>
             </div>
@@ -320,4 +441,5 @@ const EnglishPage=()=>{
 
 }
 
-export default EnglishPage;
+export default HebrewPage;
+
