@@ -183,6 +183,7 @@ body{
 
 .left .text{
 	color: black;
+	
 	text-transform: uppercase;
 	font-size: 13px;
 }
@@ -370,9 +371,9 @@ body{
 }
 
 .right_inner .li_wrap .info_com{
-	font-weight: 300;
-	font-size: 14px;
-	margin-top: 3px;
+	font-weight: 400;
+	font-size: 100%;
+	margin-top: 3%;
 }
 
 .right_inner .li_wrap .info_cont{
