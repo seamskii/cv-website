@@ -187,12 +187,6 @@ const HebrewPage=()=>{
                                         <div class="text">C++</div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="li_wrap">
-                                        <div class="icon"><i class="fab fa-react"></i></div>
-                                        <div class="text">CISCO</div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                         </div>
@@ -260,9 +254,9 @@ const HebrewPage=()=>{
                                                 Freelance
                                                 </p>
                                                 <ul class="info_cont">
-                                                    <li style={{ textIndent:"10px" }}>עוזר למהנדס הראשי .יצירת יישומים חזיתיים</li>
+                                                    <li >עוזר למהנדס הראשי .יצירת יישומים חזיתיים</li>
                                                     <li>תכנון, קידוד, בדיקה, איתור באגים-React.js ב</li>
-                                                    <li style={{ textIndent:"115px" }}>  והטמעה של 
+                                                    <li >  והטמעה של 
  תגובה חזיתית  </li>
  .<a href="https://hillel.ru">https://hillel.ru</a>-פיתוח
                                                     
@@ -285,13 +279,15 @@ const HebrewPage=()=>{
                                                 </p>
                                                 <p class="info_cont">
                                                     <ul>
-                                                    <li style={{ textIndent:"87px" }}>.CISCO,SQL: שימוש בתוכנות ●</li>
-                                                    <li style={{ textIndent:"19px" }}>סיפוק תקשורת מקומית בין מערכות הלחץ ●</li>
-                                                    <li style={{ textIndent:"75px" }}>-וניתוח, על ידי יצירת הדמיות עם</li>
-                                                    <li style={{ textIndent:"20px" }}>.CISCO PACKET TRACER</li>
-                                                    <li style={{ textIndent:"46px" }}>עריכת חישובים לשינויים לצורך שיפור ●</li>
-                                                    <li style={{ textIndent:"152px" }}>.פעולות בתי הזיקוק</li>
-                                                    <li style={{ textIndent:"104px" }}>.ביצוע ניתוח סיכוני תהליכים ●</li>
+                                                    <li > שימוש בתוכנות ●</li>
+                                                    <li >.CISCO,SQL</li>
+                                                    <li >סיפוק תקשורת מקומית בין ●</li>
+                                                    <li >מערכות הלחץ</li>
+                                                    <li >-וניתוח, על ידי יצירת הדמיות עם</li>
+                                                    <li >.CISCO PACKET TRACER</li>
+                                                    <li > עריכת חישובים לשינויים ●</li>
+                                                    <li>.לצורך שיפור פעולות בתי הזיקוק</li>
+                                                    <li >.ביצוע ניתוח סיכוני תהליכים ●</li>
     
                                                     </ul>
                                                 </p>
@@ -312,11 +308,14 @@ const HebrewPage=()=>{
                                                 </p>
                                                 <p class="info_cont">
                                                 <ul>
-                                                    <li style={{ textIndent:"20px" }}>.JavaScript,HTML/CSS:ש'מוש בתוכנות ●</li>
-                                                    <li style={{ textIndent:"38px" }}>אחראי על יצירת דפי פרסום עבור חברת ●</li>
-                                                    <li style={{ textIndent:"23px" }}>.<a href="https://www.moldcell.md/">https://www.moldcell.md/</a> -טלפונים</li>
-                                                    <li style={{ textIndent:"137px" }}>.חדשנות ותיקון שגיאות ●</li>
-                                                    <li style={{ textIndent:"41px" }}>.עבודה באבחון ממוחשב ותמיכה טכנית ●</li>
+                                                    <li >:ש'מוש בתוכנות ●</li>
+                                                    <li >.JavaScript,HTML/CSS</li>
+                                                    <li> אחראי על יצירת דפי פרסום ●</li>
+                                                    <li >-עבור חברת טלפונים </li>
+                                                    <li >.<a href="https://www.moldcell.md/">https://www.moldcell.md/</a></li>
+                                                    <li >.חדשנות ותיקון שגיאות ●</li>
+                                                    <li >עבודה באבחון ממוחשב ●</li>
+                                                    <li >.ותמיכה טכנית</li>
                                                     </ul>
                                                 </p>
                                             </div>
@@ -343,8 +342,12 @@ const HebrewPage=()=>{
                                                 <p class="info_com">
                                                 טכניון
                                                 </p>
-                                                <p class="info_cont" style={{ textIndent:"75px" }}>
-                                               .פרויקט גמר - אתר חינוכי לילדים 
+                                                <p class="info_cont">
+                                                    <ul>
+                                                        <li>פרויקט גמר - אתר </li>
+                                                        <li>. חינוכי לילדים</li>
+                                                        
+                                                    </ul>
     
                                                 </p>
                                             </div>
@@ -364,9 +367,10 @@ const HebrewPage=()=>{
                                                 </p>
                                                 <p class="info_cont">
                                                 <ul>
-                                                    <li style={{ textIndent:"10px" }}>פרויקט גמר - רכב עם סוללה סולארית, עיצוב</li>
-                                                    <li style={{ textIndent:"34px" }}>,(V2D)רכב-מכשיר,AutoCAD במערכת</li>
-                                                    <li style={{ textIndent:"150px" }}>.C תכנון תקשורת עם</li>
+                                                    <li >פרויקט גמר - רכב עם</li>
+                                                    <li >סוללה סולארית, עיצוב</li>
+                                                    <li >,(V2D)רכב-מכשיר,AutoCAD במערכת</li>
+                                                    <li>.C תכנון תקשורת עם</li>
                                                 </ul>
     
                                                 </p>
@@ -407,22 +411,22 @@ const HebrewPage=()=>{
                         <div class="languagephone">
                             <ul>
                                 <li>
-                                    <div class="exp2">
+                                    <div class="li_wrap">
                                         <div class="icon"><div class="text">עברית <span style={{ color: 'deepskyblue' }}>(שותף)</span></div></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="exp2">
+                                    <div class="li_wrap">
                                         <div class="icon"><div class="text"> אנגלית <span style={{ color: 'deepskyblue' }}>(שוטף)</span></div></div>								
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="exp2">
+                                    <div class="li_wrap">
                                         <div class="icon"><div class="text">רוסית <span style={{ color: 'deepskyblue' }}>(שפת אם)</span></div></div>								
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="exp2">
+                                    <div class="li_wrap">
                                         <div class="icon"><div class="text">רומנית <span style={{ color: 'deepskyblue' }}>(שפת אם)</span></div></div>								
                                     </div>
                                 </li>
