@@ -100,7 +100,7 @@ body{
 .titlephone{
 	font-size: 100%;
 	font-weight: 700;
-	margin-top: 45%;
+	margin-top: 50%;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	padding-bottom: 10px;
@@ -454,7 +454,7 @@ background: none;
 }
 
 .skillsphone .li_wrap{
-	width: 100px;
+	width: 90px;
 	height: 30px;
 	display: flex;
 	background:deepskyblue;
@@ -476,7 +476,8 @@ background: none;
 
 
 .skillsphone .li_wrap .text{
-	
+
+	font-size: 90%;
 	margin-top: 5%;
 }
 
