@@ -327,7 +327,7 @@ body{
 }
 .exp2 .li_wrap{
 	display: flex;
-    font-size: 80%;
+    font-size: 85%;
 	justify-content: flex-end;
 	margin-bottom: 3%;
 }
@@ -341,6 +341,7 @@ body{
 }
 
 .right_inner .li_wrap .date {
+	margin-right: 5%;
     width: 30%;
     color: black;
 }
@@ -508,8 +509,10 @@ background: none;
 }
 
 .contactphone .li_wrap .icon{
-	width: 40px;
+	width: 30px;
 	height: 30px;
+	border-width:thin;
+	border-style: solid;
 	background:deepskyblue;
 	border-radius: 15px;
 	display: flex;
@@ -518,7 +521,7 @@ background: none;
 	margin-right: 15px;
 }
 .contactHIPphone .li_wrap .icon{
-	width: 40px;
+	width: 30px;
 	height: 30px;
 	border-width:thin;
 	border-style: solid;
@@ -566,7 +569,7 @@ background: none;
 .contactphone .li_wrap .text{
 	width: calc(100% - 50px);
 	word-break: break-word;
-	font-size: 65%;
+	font-size: 100%;
 	color: black;
 }
 
