@@ -1,6 +1,6 @@
 import '../App.css';
 import React from "react";
-import {MailOutlined,FileWordOutlined,HomeOutlined,PhoneOutlined  } from '@ant-design/icons';
+import {MailOutlined,HomeOutlined,PhoneOutlined  } from '@ant-design/icons';
 import imgcv from '../images/cv.png';
 import {Link} from "react-router-dom";
 
@@ -13,7 +13,7 @@ const HebrewPage=()=>{
           <div class="wrapper">
             <div class="resume">
                 <div class="left">
-                    <div class="img_holder"><img src={imgcv} alt="picture"/></div>
+                    <div class="img_holder"><img src={imgcv} alt="face"/></div>
                     <div class="contact_wrap pb">
                         <div class="title">
                         פרטים אישיים
