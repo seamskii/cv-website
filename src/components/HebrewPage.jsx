@@ -74,6 +74,12 @@ const HebrewPage=()=>{
                                 <li>
                                     <div class="li_wrap">
                                         <div class="icon"><i class="fab fa-react"></i></div>
+                                        <div class="text">Node.JS</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li_wrap">
+                                        <div class="icon"><i class="fab fa-react"></i></div>
                                         <div class="text">C</div>
                                     </div>
                                 </li>
@@ -87,12 +93,6 @@ const HebrewPage=()=>{
                                     <div class="li_wrap">
                                         <div class="icon"><i class="fab fa-react"></i></div>
                                         <div class="text">CISCO</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="li_wrap">
-                                        <div class="icon"><i class="fab fa-react"></i></div>
-                                        <div class="text">SQL</div>
                                     </div>
                                 </li>
                             </ul>
